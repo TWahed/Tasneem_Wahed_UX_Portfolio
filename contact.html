@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tasneem Wahed Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html" title="Logo"><img src="image/Logo.jpg" width="77" height="63" alt="Logo"></a>	
+			<p>user experience designer</p>			
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">Projects</a></li>
+					<li><a href="homepage/tasneemcv.pdf" target="_blank" title="Resume">Resume</a></li>
+					<li><a href="about.html" title="About">About</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="container">
+		  <div class="contact" >
+			<h2>Get in Touch</h2>			
+			<p>Hi there!<br>Feel free to contact me if you have any design related suggestion or question!!<br>Looking forward to hearing from you...<br>
+				<a href="https://www.gmail.com" target="_blank" title="gmail id">tasneemapon@gmail.com</a>
+			</p>			
+		  </div>
+	    
+				 
+		  <div class="contact-box">
+		   <form>
+		  	  <div class="single-row">
+		  	   <label>Name*</label></div>
+		  	      <div class="single-column">
+		  	       <input type="text" class="input-field-name" placeholder="Enter Your First Name">
+		  	      </div>
+		  	      <div class="single-column">
+		  	       <input type="text" class="input-field-name" placeholder="Enter Your Last Name">
+		  	      </div>
+		  	
+
+		  	    <label>Email*</label>
+		  	    <input type="email" class="input-field" placeholder="Enter Your Email">	  	 
+		  	
+		  	    <label>Subject*</label>
+		  	    <input type="text" class="input-field" placeholder="Enter your Subject">		  	
+		  
+		  	    <label>Message*</label>
+		  	    <textarea type="text" class="input-field textarea-field" placeholder="Enter your Message"></textarea>	
+		  		  			  			  	
+		  	    <button type="button" class="btn">Send</button>
+		  </form>
+		</div>
+	</section>	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!------JavaScript for Toggle Menu------->
+  <script>
+  	var navLinks = document.getElementById('navLinks');
+  	function showMenu(){
+  		navLinks.style.right = "0";
+  	}
+  	function hideMenu(){
+  		navLinks.style.right = "-200px";
+  	}
+
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>		
